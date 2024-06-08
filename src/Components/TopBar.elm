@@ -1,6 +1,6 @@
 module Components.TopBar exposing (..)
 
-import Html exposing (Html, div, text, img, input, br)
+import Html exposing (Html, div, text, img, br)
 import Components.CmpStyles exposing (topbar, pointerStyle, inputSearch)
 import Html.Attributes exposing (src, alt, height)
 import Components.SearchInput exposing (view)
