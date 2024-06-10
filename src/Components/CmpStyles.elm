@@ -43,3 +43,19 @@ searchButton =
     , Html.Attributes.style "flex-grow" "1"
     , Html.Attributes.style "borderColor" "transparent"
     ]
+
+cardContainer : List (Html.Attribute msg)
+cardContainer =
+    [
+        Html.Attributes.style "position" "relative"
+        , Html.Attributes.style "display" "inline-block"
+    ]
+
+cartNumber : List (Html.Attribute msg)
+cartNumber = 
+    [
+        Html.Attributes.style "position" "absolute"  
+        , Html.Attributes.style "top" "18%"
+        , Html.Attributes.style "right" "30%"
+        , Html.Attributes.style "font-size" "25px"
+    ]
