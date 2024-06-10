@@ -9,7 +9,7 @@ import Components.Cart
 view : Html msg
 view = 
     div topbar [img [src "https://cdn.logojoy.com/wp-content/uploads/20230629132639/current-logo-600x338.png", alt "Logo", height 60] []
-            , div pointerStyle [text "Enviar a", br [] [], text "Guatemala"]
+            , div pointerStyle [text "Deliver to", br [] [], text "Guatemala"]
             , Components.SearchInput.view
             , div pointerStyle [text "José", br [] [], text "Prince"]
             , Components.Cart.view
